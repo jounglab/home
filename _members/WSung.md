@@ -1,7 +1,8 @@
 ---
 name: Wonjung Sung
 image: images/photo.jpg
-role: Researcher
+description: Project Researcher
+role: programmer
 affiliation: Bundang CHA Hospital
 aliases:
   - W Sung
