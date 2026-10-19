@@ -217,27 +217,11 @@
   - Casey S. Greene
   - Anthony Gitter
   publisher: PLOS Computational Biology
-  date: '2020-12-04'
+  date: '2019-06-24'
   link: https://doi.org/c7np
   orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/573782
   title: Sequential compression of gene expression across dimensionalities and methods
     reveals no single best method or dimensionality
@@ -253,30 +237,1796 @@
   orcid: 0000-0002-4655-3773
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+- id: doi:10.1038/s41467-020-16164-1
+  title: Single-cell RNA sequencing demonstrates the molecular and cellular reprogramming
+    of metastatic lung adenocarcinoma
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  - Nayoung Kim
+  - Hong Kwan Kim
+  - Kyungjong Lee
+  - Yourae Hong
+  - Jong Ho Cho
+  - Jung Won Choi
+  - Jung-Il Lee
+  - Yeon-Lim Suh
+  - Bo Mi Ku
+  - Hye Hyeon Eum
+  - Soyean Choi
+  - Yoon-La Choi
+  - Je-Gun Joung
+  - Woong-Yang Park
+  - Hyun Ae Jung
+  - Jong-Mu Sun
+  - Se-Hoon Lee
+  - Jin Seok Ahn
+  - Keunchil Park
+  - Myung-Ju Ahn
+  - Hae-Ock Lee
+  publisher: Nature Communications
+  date: '2020-05-08'
+  link: https://doi.org/ggwwh7
+  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caa7/7210975/38a22559c1a8/41467_2020_16164_Fig1_HTML.jpg
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+- id: doi:10.1038/s41588-020-0636-z
+  title: Lineage-dependent gene expression programs influence the immune landscape
+    of colorectal cancer
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - Hae-Ock Lee
+  - Yourae Hong
+  - Hakki Emre Etlioglu
+  - Yong Beom Cho
+  - Valentina Pomella
+  - Ben Van den Bosch
+  - Jasper Vanhecke
+  - Sara Verbandt
+  - Hyekyung Hong
+  - Jae-Woong Min
+  - Nayoung Kim
+  - Hye Hyeon Eum
+  - Junbin Qian
+  - Bram Boeckx
+  - Diether Lambrechts
+  - Petros Tsantoulis
+  - Gert De Hertogh
+  - Woosung Chung
+  - Taeseob Lee
+  - Minae An
+  - Hyun-Tae Shin
+  - Je-Gun Joung
+  - Min-Hyeok Jung
+  - Gunhwan Ko
+  - Pratyaksha Wirapati
+  - Seok Hyung Kim
+  - Hee Cheol Kim
+  - Seong Hyeon Yun
+  - Iain Bee Huat Tan
+  - Bobby Ranjan
+  - Woo Yong Lee
+  - Tae-You Kim
+  - Jung Kyoon Choi
+  - Young-Joon Kim
+  - Shyam Prabhakar
+  - Sabine Tejpar
+  - Woong-Yang Park
+  publisher: Nature Genetics
+  date: '2020-05-25'
+  link: https://doi.org/ggxg53
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/cells14221835
+  title: Chemically Defined, Efficient Megakaryocyte Production from Human Pluripotent
+    Stem Cells
+  authors:
+  - Jae Eun Kim
+  - Yeonmi Lee
+  - Yonghee Kim
+  - Sae-Byeok Hwang
+  - Yoo Bin Choi
+  - Jongsuk Han
+  - Juyeol Jung
+  - Jae-woo Song
+  - Je-Gun Joung
+  - Jeong-Jae Ko
+  - Eunju Kang
+  publisher: Cells
+  date: '2025-11-20'
+  link: https://doi.org/hcn79n
+  image: https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12651854_cells-14-01835-g001.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/cancers17213565
+  title: "Integrated Multi-Omics Analysis Uncovers Immune\u2013Metabolic Interplay\
+    \ in Hepatocellular Carcinoma Tumor Microenvironment"
+  authors:
+  - Jong-Heon Park
+  - Dae Won Sim
+  - Sook-Young Kim
+  - Joon Young Choi
+  - Seung Hyup Hyun
+  - Je-Gun Joung
+  publisher: Cancers
+  date: '2025-11-03'
+  link: https://doi.org/hcn79p
+  image: https://www.mdpi.com/cancers/cancers-17-03565/article_deploy/html/images/cancers-17-03565-g001-550.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/cells14100681
+  title: 'Identification of Prognostic Biomarkers of Ovarian High-Grade Serous Carcinoma:
+    A Preliminary Study Using Spatial Transcriptome Analysis and Multispectral Imaging'
+  authors:
+  - Haeyoun Kang
+  - Je-Gun Joung
+  - Hyun Park
+  - Min Chul Choi
+  - Doohyun Koh
+  - Ju-Yeon Jeong
+  - Jimin Lee
+  - Sook-Young Kim
+  - Daun Jung
+  - Sohyun Hwang
+  - Hee Jung An
+  publisher: Cells
+  date: '2025-05-08'
+  link: https://doi.org/hcn79q
+  image: https://www.mdpi.com/cells/cells-14-00681/article_deploy/html/images/cells-14-00681-g001-550.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1159/000549565
+  title: Clinical Feasibility of Circulating Tumor DNA in Patients with Advanced Hepatocellular
+    Carcinoma Treated with Atezolizumab plus Bevacizumab
+  authors:
+  - Sohyun Hwang
+  - Dong Jun Shin
+  - Beodeul Kang
+  - Haeyoun Kang
+  - Sung Hwan Lee
+  - Jung Sun Kim
+  - Je-Gun Joung
+  - Suyog Jain
+  - Steven Olsen
+  - Lars Becker
+  - Richard S. Finn
+  - Josep M. Llovet
+  - Gwangil Kim
+  - Chan Kim
+  - Hong Jae Chon
+  publisher: Liver Cancer
+  date: '2025-11-18'
+  link: https://doi.org/hcn79r
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s00439-016-1670-x
+  title: Deciphering intratumor heterogeneity using cancer genome analysis
+  authors:
+  - Daeun Ryu
+  - Je-Gun Joung
+  - Nayoung K. D. Kim
+  - Kyu-Tae Kim
+  - Woong-Yang Park
+  publisher: Human Genetics
+  date: '2016-04-28'
+  link: https://doi.org/f8p9gt
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/ijms232314990
+  title: Combined Model-Based Prediction for Non-Invasive Prenatal Screening
+  authors:
+  - So-Yun Yang
+  - Kyung Min Kang
+  - Sook-Young Kim
+  - Seo Young Lim
+  - Hee Yeon Jang
+  - Kirim Hong
+  - Dong Hyun Cha
+  - Sung Han Shim
+  - Je-Gun Joung
+  publisher: International Journal of Molecular Sciences
+  date: '2022-11-30'
+  link: https://doi.org/hcn79s
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/genes14040785
+  title: T-Cell Receptor Repertoire Characteristics Associated with Prognostic Significance
+    in High-Grade Serous Ovarian Carcinoma
+  authors:
+  - Ju-Won Kim
+  - Sewha Kim
+  - So-Yun Yang
+  - Je-Gun Joung
+  - Sohyun Hwang
+  publisher: Genes
+  date: '2023-03-24'
+  link: https://doi.org/hcn79t
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41551-022-00980-5
+  title: Ultrafast prediction of somatic structural variations by filtering out reads
+    matched to pan-genome k-mer sets
+  authors:
+  - Jang-il Sohn
+  - Min-Hak Choi
+  - Dohun Yi
+  - Vipin A. Menon
+  - Yeon Jeong Kim
+  - Junehawk Lee
+  - Jung Woo Park
+  - Sungkyu Kyung
+  - Seung-Ho Shin
+  - Byunggook Na
+  - Je-Gun Joung
+  - Young Seok Ju
+  - Min Sun Yeom
+  - Youngil Koh
+  - Sung-Soo Yoon
+  - Daehyun Baek
+  - Tae-Min Kim
+  - Jin-Wu Nam
+  publisher: Nature Biomedical Engineering
+  date: '2022-12-19'
+  link: https://doi.org/hcn79v
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.jcmgh.2021.10.010
+  title: "TNF\u03B1 Induces LGR5+ Stem Cell Dysfunction In Patients With Crohn\u2019\
+    s Disease"
+  authors:
+  - Chansu Lee
+  - Minae An
+  - Je-Gun Joung
+  - Woong-Yang Park
+  - Dong Kyung Chang
+  - Young-Ho Kim
+  - Sung Noh Hong
+  publisher: Cellular and Molecular Gastroenterology and Hepatology
+  date: '2022-01-01'
+  link: https://doi.org/gt5kzp
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/fcimb.2022.932373
+  title: "Reduced diversity of intestinal T-cell receptor repertoire in patients with\
+    \ Crohn\u2019s disease"
+  authors:
+  - Sung Noh Hong
+  - Joo-Young Park
+  - So-Yun Yang
+  - Chansu Lee
+  - Young-Ho Kim
+  - Je-Gun Joung
+  publisher: Frontiers in Cellular and Infection Microbiology
+  date: '2022-08-10'
+  link: https://doi.org/hcn79w
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41598-018-25800-2
+  title: Genomic alterations of ground-glass nodular lung adenocarcinoma
+  authors:
+  - Hyun Lee
+  - Je-Gun Joung
+  - Hyun-Tae Shin
+  - Duk-Hwan Kim
+  - Yujin Kim
+  - Hojoong Kim
+  - O. Jung Kwon
+  - Young Mog Shim
+  - Ho Yun Lee
+  - Kyung Soo Lee
+  - Yoon-La Choi
+  - Woong-Yang Park
+  - D. Neil Hayes
+  - Sang-Won Um
+  publisher: Scientific Reports
+  date: '2018-05-16'
+  link: https://doi.org/gdkmnb
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41598-022-17246-4
+  title: Clinical significance of germline telomere length and associated genetic
+    factors in patients with neuroblastoma
+  authors:
+  - Joon Seol Bae
+  - Ji Won Lee
+  - Je-Gun Joung
+  - Hee Won Cho
+  - Hee Young Ju
+  - Keon Hee Yoo
+  - Hong Hoe Koo
+  - Ki Woong Sung
+  publisher: Scientific Reports
+  date: '2022-07-28'
+  link: https://doi.org/hcn79x
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/cancers12082207
+  title: Pan-Cancer Analysis of Alternative Lengthening of Telomere Activity
+  authors:
+  - Ji-Yong Sung
+  - Hee-Woong Lim
+  - Je-Gun Joung
+  - Woong-Yang Park
+  publisher: Cancers
+  date: '2020-08-07'
+  link: https://doi.org/hcn79z
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.tranon.2018.09.003
+  title: Biomarkers Associated with Tumor Heterogeneity in Prostate Cancer
+  authors:
+  - Jae Won Yun
+  - Soomin Lee
+  - Daeun Ryu
+  - Semi Park
+  - Woong-Yang Park
+  - Je-Gun Joung
+  - Jeongyun Jeong
+  publisher: Translational Oncology
+  date: '2019-01-01'
+  link: https://doi.org/gnh4jg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s13578-023-00961-4
+  title: Predictive biomarkers for the responsiveness of recurrent glioblastomas to
+    activated killer cell immunotherapy
+  authors:
+  - Sohyun Hwang
+  - Jaejoon Lim
+  - Haeyoun Kang
+  - Ju-Yeon Jeong
+  - Je-Gun Joung
+  - Jinhyung Heo
+  - Daun Jung
+  - Kyunggi Cho
+  - Hee Jung An
+  publisher: Cell &amp; Bioscience
+  date: '2023-01-24'
+  link: https://doi.org/hcn792
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/fonc.2024.1351778
+  title: RAD51 as an immunohistochemistry-based marker of poly(ADP-ribose) polymerase
+    inhibitor resistance in ovarian cancer
+  authors:
+  - Yoo-Na Kim
+  - Kyeongmin Kim
+  - Je-Gun Joung
+  - Sang Wun Kim
+  - Sunghoon Kim
+  - Jung-Yun Lee
+  - Eunhyang Park
+  publisher: Frontiers in Oncology
+  date: '2024-04-25'
+  link: https://doi.org/hcn793
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41477-019-0522-9
+  title: Transcriptional regulatory framework for vascular cambium development in
+    Arabidopsis roots
+  authors:
+  - Jing Zhang
+  - Gugan Eswaran
+  - Juan Alonso-Serra
+  - Melis Kucukoglu
+  - Jiale Xiang
+  - Weibing Yang
+  - Annakaisa Elo
+  - Kaisa Nieminen
+  - "Teddy Dam\xE9n"
+  - Je-Gun Joung
+  - Jae-Young Yun
+  - Jung-Hun Lee
+  - Laura Ragni
+  - Pierre Barbier de Reuille
+  - Sebastian E. Ahnert
+  - Ji-Young Lee
+  - "Ari Pekka M\xE4h\xF6nen"
+  - "Yk\xE4 Helariutta"
+  publisher: Nature Plants
+  date: '2019-10-08'
+  link: https://doi.org/ggcfzx
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41467-017-01470-y
+  title: Prevalence and detection of low-allele-fraction variants in clinical cancer
+    samples
+  authors:
+  - Hyun-Tae Shin
+  - Yoon-La Choi
+  - Jae Won Yun
+  - Nayoung K. D. Kim
+  - Sook-Young Kim
+  - Hyo Jeong Jeon
+  - Jae-Yong Nam
+  - Chung Lee
+  - Daeun Ryu
+  - Sang Cheol Kim
+  - Kyunghee Park
+  - Eunjin Lee
+  - Joon Seol Bae
+  - Dae Soon Son
+  - Je-Gun Joung
+  - Jeeyun Lee
+  - Seung Tae Kim
+  - Myung-Ju Ahn
+  - Se-Hoon Lee
+  - Jin Seok Ahn
+  - Woo Yong Lee
+  - Bo Young Oh
+  - Yeon Hee Park
+  - Jeong Eon Lee
+  - Kwang Hyuk Lee
+  - Hee Cheol Kim
+  - Kyoung-Mee Kim
+  - Young-Hyuck Im
+  - Keunchil Park
+  - Peter J. Park
+  - Woong-Yang Park
+  publisher: Nature Communications
+  date: '2017-11-09'
+  link: https://doi.org/gcjs7p
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1158/1078-0432.CCR-22-0879
+  title: Clinical, Pathologic, and Molecular Prognostic Factors in Patients with Early-Stage
+    EGFR-Mutant NSCLC
+  authors:
+  - Hyun Ae Jung
+  - Jinyeong Lim
+  - Yoon-La Choi
+  - Se-Hoon Lee
+  - Je-Gun Joung
+  - Yeong Jeong Jeon
+  - Jae Won Choi
+  - Sumin Shin
+  - Jong Ho Cho
+  - Hong Kwan Kim
+  - Yong Soo Choi
+  - Jae Ill Zo
+  - Young Mog Shim
+  - Sehhoon Park
+  - Jong-Mu Sun
+  - Jin Seok Ahn
+  - Myung-Ju Ahn
+  - Joungho Han
+  - Woong-Yang Park
+  - Jhingook Kim
+  - Keunchil Park
+  publisher: Clinical Cancer Research
+  date: '2022-07-15'
+  link: https://doi.org/hcn794
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1371/journal.pone.0219682
+  title: Assessment of intratumoral heterogeneity with mutations and gene expression
+    profiles
+  authors:
+  - Ji-Yong Sung
+  - Hyun-Tae Shin
+  - Kyung-Ah Sohn
+  - Soo-Yong Shin
+  - Woong-Yang Park
+  - Je-Gun Joung
+  publisher: PLOS ONE
+  date: '2019-07-16'
+  link: https://doi.org/hcn795
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.ygyno.2023.12.029
+  title: 'Durvalumab with or without tremelimumab plus chemotherapy in HRR non-mutated,
+    platinum-resistant ovarian cancer (KGOG 3045): A phase II umbrella trial'
+  authors:
+  - Se Ik Kim
+  - Je-Gun Joung
+  - Yoo-Na Kim
+  - Junsik Park
+  - Eunhyang Park
+  - Jae-Weon Kim
+  - Sungyoung Lee
+  - Jung Bok Lee
+  - Sunghoon Kim
+  - Chel Hun Choi
+  - Hee Seung Kim
+  - Jinyeong Lim
+  - Jongsuk Chung
+  - Byoung-Gie Kim
+  - Jung-Yun Lee
+  publisher: Gynecologic Oncology
+  date: '2024-03-01'
+  link: https://doi.org/hcn796
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/cancers14092308
+  title: Dynamics of the Tumor Immune Microenvironment during Neoadjuvant Chemotherapy
+    of High-Grade Serous Ovarian Cancer
+  authors:
+  - Yong Jae Lee
+  - Ha Young Woo
+  - Yoo-Na Kim
+  - Junsik Park
+  - Eun Ji Nam
+  - Sang Wun Kim
+  - Sunghoon Kim
+  - Young Tae Kim
+  - Eunhyang Park
+  - Je-Gun Joung
+  - Jung-Yun Lee
+  publisher: Cancers
+  date: '2022-05-06'
+  link: https://doi.org/hcn797
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1158/1078-0432.CCR-17-0306
+  title: Tumor Heterogeneity Predicts Metastatic Potential in Colorectal Cancer
+  authors:
+  - Je-Gun Joung
+  - Bo Young Oh
+  - Hye Kyung Hong
+  - Hisham Al-Khalidi
+  - Faisal Al-Alem
+  - Hae-Ock Lee
+  - Joon Seol Bae
+  - Jinho Kim
+  - Hong-Ui Cha
+  - Maram Alotaibi
+  - Yong Beom Cho
+  - Mazen Hassanain
+  - Woong-Yang Park
+  - Woo Yong Lee
+  publisher: Clinical Cancer Research
+  date: '2017-11-30'
+  link: https://doi.org/gdvthb
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/ijc.34696
+  title: "Randomized, two\u2010arm, noncomparative phase 2 study of olaparib plus\
+    \ cediranib or durvalumab in <scp>HRR</scp>\u2010mutated, platinum\u2010resistant\
+    \ ovarian cancer: A substudy of <scp>KGOG</scp> 3045"
+  authors:
+  - "Yoo\u2010Na Kim"
+  - "Je\u2010Gun Joung"
+  - Eunhyang Park
+  - "Jae\u2010Weon Kim"
+  - Jung Bok Lee
+  - Jinyeong Lim
+  - Sunghoon Kim
+  - Chel Hun Choi
+  - Hee Seung Kim
+  - Jongsuk Chung
+  - "Byoung\u2010Gie Kim"
+  - "Jung\u2010Yun Lee"
+  publisher: International Journal of Cancer
+  date: '2023-08-21'
+  link: https://doi.org/hcn798
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1158/1078-0432.CCR-24-3753
+  title: 'Neoadjuvant Chemotherapy with Dual Immune Checkpoint Inhibitors for Advanced-Stage
+    Ovarian Cancer: Final Analysis of TRU-D Phase II Nonrandomized Clinical Trial'
+  authors:
+  - Junsik Park
+  - Je-Gun Joung
+  - Myong Cheol Lim
+  - Jungbok Lee
+  - Byoung-Gie Kim
+  - Jae-Weon Kim
+  - So Jin Shin
+  - Sunghoon Kim
+  - Eunhyang Park
+  - Chel Hun Choi
+  - Hee Seung Kim
+  - Sang Yoon Park
+  - Jung-Yun Lee
+  publisher: Clinical Cancer Research
+  date: '2025-03-05'
+  link: https://doi.org/hcn799
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s12967-021-03088-7
+  title: The role of PDGFRA as a therapeutic target in young colorectal cancer patients
+  authors:
+  - Tae Won Kim
+  - Hye Kyung Hong
+  - Chung Lee
+  - Sunmin Kim
+  - Woo Yong Lee
+  - Seong Hyeon Yun
+  - Hee Cheol Kim
+  - Jung Wook Huh
+  - Yoon Ah Park
+  - Je-Gun Joung
+  - Woong-Yang Park
+  - Yong Beom Cho
+  publisher: Journal of Translational Medicine
+  date: '2021-10-26'
+  link: https://doi.org/hcn8bb
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3802/jgo.2022.33.e45
+  title: 'Biomarker-guided targeted therapy in platinum-resistant ovarian cancer (AMBITION;
+    KGOG 3045): a multicentre, open-label, five-arm, uncontrolled, umbrella trial'
+  authors:
+  - Jung-Yun Lee
+  - Byoung-Gie Kim
+  - Jae-Weon Kim
+  - Jung Bok Lee
+  - Eunhyang Park
+  - Je-Gun Joung
+  - Sunghoon Kim
+  - Chel Hun Choi
+  - Hee Seung Kim
+  publisher: Journal of Gynecologic Oncology
+  date: '2022-01-01'
+  link: https://doi.org/hcn8bc
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/fonc.2022.845900
+  title: Metabolism-Associated Gene Signatures for FDG Avidity on PET/CT and Prognostic
+    Validation in Hepatocellular Carcinoma
+  authors:
+  - Hyunjong Lee
+  - Joon Young Choi
+  - Je-Gun Joung
+  - Jae-Won Joh
+  - Jong Man Kim
+  - Seung Hyup Hyun
+  publisher: Frontiers in Oncology
+  date: '2022-01-31'
+  link: https://doi.org/hcn8bd
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/ijc.34786
+  title: "Reply to: Comments on \u201CRandomized, two\u2010arm, non\u2010comparative\
+    \ phase 2 study of olaparib plus cediranib or durvalumab in <scp>HRR</scp>\u2010\
+    mutated, platinum\u2010resistant ovarian cancer: A substudy of <scp>KGOG</scp>\
+    \ 3045\u201D"
+  authors:
+  - "Yoo\u2010Na Kim"
+  - "Je\u2010Gun Joung"
+  - Eunhyang Park
+  - "Jae\u2010Weon Kim"
+  - Jung Bok Lee
+  - Jinyeong Lim
+  - Sunghoon Kim
+  - Chel Hun Choi
+  - Hee Seung Kim
+  - Jongsuk Chung
+  - "Byoung\u2010Gie Kim"
+  - "Jung\u2010Yun Lee"
+  publisher: International Journal of Cancer
+  date: '2023-10-31'
+  link: https://doi.org/hcn8bf
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/pdb.prot5652
+  title: High-Throughput Illumina Strand-Specific RNA Sequencing Library Preparation
+  authors:
+  - Silin Zhong
+  - Je-Gun Joung
+  - Yi Zheng
+  - Yun-ru Chen
+  - Bao Liu
+  - Ying Shao
+  - Jenny Z. Xiang
+  - Zhangjun Fei
+  - James J. Giovannoni
+  publisher: Cold Spring Harbor Protocols
+  date: '2011-08-01'
+  link: https://doi.org/c3vpf8
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s00726-010-0505-7
+  title: 'Interdependence of threonine, methionine and isoleucine metabolism in plants:
+    accumulation and transcriptional regulation under abiotic stress'
+  authors:
+  - Vijay Joshi
+  - Je-Gun Joung
+  - Zhangjun Fei
+  - Georg Jander
+  publisher: Amino Acids
+  date: '2010-02-26'
+  link: https://doi.org/bg2jnq
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/cdd.2017.106
+  title: Regulation of PLK1 through competition between hnRNPK, miR-149-3p and miR-193b-5p
+  authors:
+  - Chang Hoon Shin
+  - Hong Lee
+  - Hye Ree Kim
+  - Kyung Hee Choi
+  - Je-Gun Joung
+  - Hyeon Ho Kim
+  publisher: Cell Death &amp; Differentiation
+  date: '2017-07-14'
+  link: https://doi.org/gbnjgz
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/bib/bbv055
+  title: Evaluation of somatic copy number estimation tools for whole-exome sequencing
+    data
+  authors:
+  - Jae-Yong Nam
+  - Nayoung K. D. Kim
+  - Sang Cheol Kim
+  - Je-Gun Joung
+  - Ruibin Xi
+  - Semin Lee
+  - Peter J. Park
+  - Woong-Yang Park
+  publisher: Briefings in Bioinformatics
+  date: '2015-07-25'
+  link: https://doi.org/f8gm5t
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.isci.2020.101386
+  title: Earlier-Phased Cancer Immunity Cycle Strongly Influences Cancer Immunity
+    in Operable Never-Smoker Lung Adenocarcinoma
+  authors:
+  - Hong Kwan Kim
+  - Je-Gun Joung
+  - Yoon-La Choi
+  - Se-Hoon Lee
+  - Byung Jo Park
+  - Yong Soo Choi
+  - Daeun Ryu
+  - Jae-Yong Nam
+  - Mi-Sook Lee
+  - Woong-Yang Park
+  - Soohyun Hwang
+  - Hongui Cha
+  - Hong Sook Kim
+  - Sanghyuk Lee
+  - Yeonjoo Jung
+  - Jong Eun Lee
+  - Junsang Doh
+  - Soonmyung Paik
+  - Jung Hee Kang
+  - Jinseon Lee
+  - Jhingook Kim
+  publisher: iScience
+  date: '2020-08-01'
+  link: https://doi.org/hcn8bg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/gr.223263.117
+  title: 'SIDR: simultaneous isolation and parallel sequencing of genomic DNA and
+    total RNA from single cells'
+  authors:
+  - Kyung Yeon Han
+  - Kyu-Tae Kim
+  - Je-Gun Joung
+  - Dae-Soon Son
+  - Yeon Jeong Kim
+  - Areum Jo
+  - Hyo-Jeong Jeon
+  - Hui-Sung Moon
+  - Chang Eun Yoo
+  - Woosung Chung
+  - Hye Hyeon Eum
+  - Sangmin Kim
+  - Hong Kwan Kim
+  - Jeong Eon Lee
+  - Myung-Ju Ahn
+  - Hae-Ock Lee
+  - Donghyun Park
+  - Woong-Yang Park
+  publisher: Genome Research
+  date: '2017-12-05'
+  link: https://doi.org/gcpk9d
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.4143/crt.2019.036
+  title: Clinical Targeted Next-Generation sequencing Panels for Detection of Somatic
+    Variants in Gliomas
+  authors:
+  - Hyemi Shin
+  - Jason K. Sa
+  - Joon Seol Bae
+  - Harim Koo
+  - Seonwhee Jin
+  - Hee Jin Cho
+  - Seung Won Choi
+  - Jong Min Kyoung
+  - Ja Yeon Kim
+  - Yun Jee Seo
+  - Je-Gun Joung
+  - Nayoung K. D. Kim
+  - Dae-Soon Son
+  - Jongsuk Chung
+  - Taeseob Lee
+  - Doo-Sik Kong
+  - Jung Won Choi
+  - Ho Jun Seol
+  - Jung-Il Lee
+  - Yeon-Lim Suh
+  - Woong-Yang Park
+  - Do-Hyun Nam
+  publisher: Cancer Research and Treatment
+  date: '2020-01-15'
+  link: https://doi.org/gjddj7
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.tranon.2018.08.013
+  title: Clinical Relevance of Genomic Changes in Recurrent Pediatric Solid Tumors
+  authors:
+  - Boram Lee
+  - Ji Won Lee
+  - Joon Ho Shim
+  - Je-Gun Joung
+  - Jae Won Yun
+  - Joon Seol Bae
+  - Hyun-Tae Shin
+  - Ki Woong Sung
+  - Woong-Yang Park
+  publisher: Translational Oncology
+  date: '2018-12-01'
+  link: https://doi.org/hcn8bh
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.2147/CMAR.S149002
+  title: Exome and transcriptome sequencing identifies loss of &lt;em&gt;PDLIM2&lt;/em&gt;
+    in metastatic colorectal cancers
+  authors:
+  - Bo Young Oh
+  - Jeonghee Cho
+  - Hye Kyung Hong
+  - Joon Seol Bae
+  - Woong-Yang Park
+  - Je-Gun Joung
+  - Yong Beom Cho
+  publisher: Cancer Management and Research
+  date: '2017-11-01'
+  link: https://doi.org/gcks8v
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/cimb43010019
+  title: "Renal Cell Carcinoma-Infiltrating CD3low V\u03B39V\u03B41 T Cells Represent\
+    \ Potentially Novel Anti-Tumor Immune Players"
+  authors:
+  - Hye Won Lee
+  - Chanho Park
+  - Je-Gun Joung
+  - Minyong Kang
+  - Yun Shin Chung
+  - Won Joon Oh
+  - Seon-Yong Yeom
+  - Woong-Yang Park
+  - Tae Jin Kim
+  - Seong Il Seo
+  publisher: Current Issues in Molecular Biology
+  date: '2021-05-27'
+  link: https://doi.org/hcn8bj
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.18632/oncotarget.3886
+  title: Overexpression of microRNA-95-3p suppresses brain metastasis of lung adenocarcinoma
+    through downregulation of cyclin D1
+  authors:
+  - Su Jin Hwang
+  - Hye Won Lee
+  - Hye Ree Kim
+  - Hye Jin Song
+  - Dong Heon Lee
+  - Hong Lee
+  - Chang Hoon Shin
+  - Je-Gun Joung
+  - Duk-Hwan Kim
+  - Kyeung Min Joo
+  - Hyeon Ho Kim
+  publisher: Oncotarget
+  date: '2015-05-07'
+  link: https://doi.org/f75fhc
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41598-019-41098-0
+  title: Intratumor heterogeneity inferred from targeted deep sequencing as a prognostic
+    indicator
+  authors:
+  - Bo Young Oh
+  - Hyun-Tae Shin
+  - Jae Won Yun
+  - Kyu-Tae Kim
+  - Jinho Kim
+  - Joon Seol Bae
+  - Yong Beom Cho
+  - Woo Yong Lee
+  - Seong Hyeon Yun
+  - Yoon Ah Park
+  - Yeon Hee Park
+  - Young-Hyuck Im
+  - Jeeyun Lee
+  - Je-Gun Joung
+  - Hee Cheol Kim
+  - Woong-Yang Park
+  publisher: Scientific Reports
+  date: '2019-03-14'
+  link: https://doi.org/hcn8bk
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.tranon.2018.04.007
+  title: Molecular Characterization of Colorectal Signet-Ring Cell Carcinoma Using
+    Whole-Exome and RNA Sequencing
+  authors:
+  - Jae-Yong Nam
+  - Bo Young Oh
+  - Hye Kyung Hong
+  - Joon Seol Bae
+  - Tae Won Kim
+  - Sang Yun Ha
+  - Donghyun Park
+  - Woo Yong Lee
+  - Hee Cheol Kim
+  - Seong Hyeon Yun
+  - Yoon Ah Park
+  - Je-Gun Joung
+  - Woong-Yang Park
+  - Yong Beom Cho
+  publisher: Translational Oncology
+  date: '2018-08-01'
+  link: https://doi.org/hcn8bm
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.bbagrm.2016.02.010
+  title: Neurofibromatosis 2 (NF2) controls the invasiveness of glioblastoma through
+    YAP-dependent expression of CYR61/CCN1 and miR-296-3p
+  authors:
+  - Hong Lee
+  - Su Jin Hwang
+  - Hye Ree Kim
+  - Chang Hoon Shin
+  - Kyung Hee Choi
+  - Je-Gun Joung
+  - Hyeon Ho Kim
+  publisher: Biochimica et Biophysica Acta (BBA) - Gene Regulatory Mechanisms
+  date: '2016-04-01'
+  link: https://doi.org/f8jn9j
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41598-021-92229-5
+  title: 'Interaction of genetic and environmental factors for body fat mass control:
+    observational study for lifestyle modification and genotyping'
+  authors:
+  - Joon Ho Kang
+  - Heewon Kim
+  - Jinki Kim
+  - Jong-Hwa Seo
+  - Soyeon Cha
+  - Hyunjung Oh
+  - Kyunga Kim
+  - Seong-Jin Park
+  - Eunbin Kim
+  - Sunga Kong
+  - Jae-Hak Lee
+  - Joon Seol Bae
+  - Hong-Hee Won
+  - Je-Gun Joung
+  - Yoon Jung Yang
+  - Jinho Kim
+  - Woong-Yang Park
+  publisher: Scientific Reports
+  date: '2021-06-23'
+  link: https://doi.org/hcn8bn
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.febslet.2015.01.024
+  title: Characteristic molecular vibrations of adenosine receptor ligands
+  authors:
+  - Hyun Keun Chee
+  - Jin-San Yang
+  - Je-Gun Joung
+  - Byoung-Tak Zhang
+  - S. June Oh
+  publisher: FEBS Letters
+  date: '2015-01-23'
+  link: https://doi.org/f62j72
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.bbamcr.2016.03.021
+  title: Genome-wide screen identifies novel machineries required for both ciliogenesis
+    and cell cycle arrest upon serum starvation
+  authors:
+  - Ji Hyun Kim
+  - Soo Mi Ki
+  - Je-Gun Joung
+  - Eric Scott
+  - Susanne Heynen-Genel
+  - Pedro Aza-Blanc
+  - Chang Hyuk Kwon
+  - Joon Kim
+  - Joseph G. Gleeson
+  - Ji Eun Lee
+  publisher: Biochimica et Biophysica Acta (BBA) - Molecular Cell Research
+  date: '2016-06-01'
+  link: https://doi.org/f8ms2h
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1104/pp.109.145169
+  title: 'Plant MetGenMAP: An Integrative Analysis System for Plant Systems Biology'
+  authors:
+  - Je-Gun Joung
+  - Anthony M. Corbett
+  - Shanna Moore Fellman
+  - Denise M. Tieman
+  - Harry J. Klee
+  - James J. Giovannoni
+  - Zhangjun Fei
+  publisher: Plant Physiology
+  date: '2009-10-09'
+  link: https://doi.org/fntc2t
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s40425-019-0609-x
+  title: Paired whole exome and transcriptome analyses for the Immunogenomic changes
+    during concurrent chemoradiotherapy in esophageal squamous cell carcinoma
+  authors:
+  - Sehhoon Park
+  - Je-Gun Joung
+  - Yang Won Min
+  - Jae-Yong Nam
+  - Daeun Ryu
+  - Dongryul Oh
+  - Woong-Yang Park
+  - Se-Hoon Lee
+  - Yoon La Choi
+  - Jin Seok Ahn
+  - Myung-Ju Ahn
+  - Keunchil Park
+  - Jong-Mu Sun
+  publisher: Journal for ImmunoTherapy of Cancer
+  date: '2019-05-16'
+  link: https://doi.org/gnv7m4
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/2211-5463.12109
+  title: "Paradoxical delay of senescence upon depletion of <scp>BRCA</scp>2 in telomerase\u2010\
+    deficient worms"
+  authors:
+  - "Mi\u2010Sun Kwon"
+  - Jaewon Min
+  - "Hee\u2010Yeon Jeon"
+  - Kwangwoo Hwang
+  - Chuna Kim
+  - Junho Lee
+  - "Je\u2010Gun Joung"
+  - "Woong\u2010Yang Park"
+  - Hyunsook Lee
+  publisher: FEBS Open Bio
+  date: '2016-09-07'
+  link: https://doi.org/hcn8bp
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1158/0008-5472.CAN-16-0873
+  title: Molecular Evolution Patterns in Metastatic Lymph Nodes Reflect the Differential
+    Treatment Response of Advanced Primary Lung Cancer
+  authors:
+  - Sang-Won Um
+  - Je-Gun Joung
+  - Hyun Lee
+  - Hojoong Kim
+  - Kyu-Tae Kim
+  - Jinha Park
+  - D. Neil Hayes
+  - Woong-Yang Park
+  publisher: Cancer Research
+  date: '2016-11-14'
+  link: https://doi.org/f9c97b
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/emm.2016.63
+  title: Targeted exome sequencing resolves allelic and the genetic heterogeneity
+    in the genetic diagnosis of nephronophthisis-related ciliopathy
+  authors:
+  - Hee Gyung Kang
+  - Hyun Kyung Lee
+  - Yo Han Ahn
+  - Je-Gun Joung
+  - Jaeyong Nam
+  - Nayoung K D Kim
+  - Jung Min Ko
+  - Min Hyun Cho
+  - Jae Il Shin
+  - Joon Kim
+  - Hye Won Park
+  - Young Seo Park
+  - Il-Soo Ha
+  - Woo Yeong Chung
+  - Dae-Yeol Lee
+  - Su Young Kim
+  - Woong Yang Park
+  - Hae Il Cheong
+  publisher: Experimental &amp; Molecular Medicine
+  date: '2016-08-05'
+  link: https://doi.org/g5jc75
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/1755-8794-8-S2-S8
+  title: 'RCARE: RNA Sequence Comparison and Annotation for RNA Editing'
+  authors:
+  - Soo Youn Lee
+  - Je-Gun Joung
+  - Chan Hee Park
+  - Ji Hye Park
+  - Ju Han Kim
+  publisher: BMC Medical Genomics
+  date: '2015-05-29'
+  link: https://doi.org/gb34vb
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1097/MIB.0000000000001066
+  title: "RNA-seq Reveals Transcriptomic Differences in Inflamed and Noninflamed Intestinal\
+    \ Mucosa of Crohn\u02BCs Disease Patients Compared with Normal Mucosa of Healthy\
+    \ Controls"
+  authors:
+  - Sung Noh Hong
+  - Je-Gun Joung
+  - Joon Seol Bae
+  - Chan Soo Lee
+  - Ja Seol Koo
+  - Soo Jung Park
+  - Jong Pil Im
+  - You Sun Kim
+  - Ji Won Kim
+  - Woong Yang Park
+  - Young-Ho Kim
+  publisher: Inflammatory Bowel Diseases
+  date: '2017-07-01'
+  link: https://doi.org/gbpfzb
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s13014-016-0623-9
+  title: Predicting multi-class responses to preoperative chemoradiotherapy in rectal
+    cancer patients
+  authors:
+  - Jungsoo Gim
+  - Yong Beom Cho
+  - Hye Kyung Hong
+  - Hee Cheol Kim
+  - Seong Hyeon Yun
+  - Hong-Gyun Wu
+  - Seung-Yong Jeong
+  - Je-Gun Joung
+  - Taesung Park
+  - Woong-Yang Park
+  - Woo Yong Lee
+  publisher: Radiation Oncology
+  date: '2016-03-22'
+  link: https://doi.org/f8fc4p
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/microorganisms8060874
+  title: Changes in the Intestinal Microbiota of Patients with Inflammatory Bowel
+    Disease with Clinical Remission during an 8-Week Infliximab Infusion Cycle
+  authors:
+  - Gyeol Seong
+  - Namil Kim
+  - Je-Gun Joung
+  - Eun Ran Kim
+  - Dong Kyung Chang
+  - Jongsik Chun
+  - Sung Noh Hong
+  - Young-Ho Kim
+  publisher: Microorganisms
+  date: '2020-06-09'
+  link: https://doi.org/hcn8bq
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.18632/oncotarget.10502
+  title: Nonlinear tumor evolution from dysplastic nodules to hepatocellular carcinoma
+  authors:
+  - Je-Gun Joung
+  - Sang Yun Ha
+  - Joon Seol Bae
+  - Jae-Yong Nam
+  - Geum-Youn Gwak
+  - Hae-Ock Lee
+  - Dae-Soon Son
+  - Cheol-Keun Park
+  - Woong-Yang Park
+  publisher: Oncotarget
+  date: '2016-07-09'
+  link: https://doi.org/f9n4m8
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s11103-012-9914-1
+  title: Transcriptome profiling and methyl homeostasis of an Arabidopsis mutant deficient
+    in S-adenosylhomocysteine hydrolase1 (SAHH1)
+  authors:
+  - Bo Ouyang
+  - Zhangjun Fei
+  - Je-Gun Joung
+  - Allan Kolenovsky
+  - Chushin Koh
+  - Jacek Nowak
+  - Allan Caplan
+  - Wilfred A. Keller
+  - Yuhai Cui
+  - Adrian J. Cutler
+  - Edward W. T. Tsang
+  publisher: Plant Molecular Biology
+  date: '2012-05-04'
+  link: https://doi.org/f3zzdd
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1371/journal.pone.0152574
+  title: Genomic Characterization and Comparison of Multi-Regional and Pooled Tumor
+    Biopsy Specimens
+  authors:
+  - Je-Gun Joung
+  - Joon Seol Bae
+  - Sang Cheol Kim
+  - HyunChul Jung
+  - Woong-Yang Park
+  - Sang-Yong Song
+  publisher: PLOS ONE
+  date: '2016-03-24'
+  link: https://doi.org/f8wjf4
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1161/ATVBAHA.115.305363
+  title: "Deregulation of Retinaldehyde Dehydrogenase 2 Leads to Defective Angiogenic\
+    \ Function of Endothelial Colony\u2013Forming Cells in Pediatric Moyamoya Disease"
+  authors:
+  - Ji Yeoun Lee
+  - Youn Joo Moon
+  - Hae-Ock Lee
+  - Ae-Kyung Park
+  - Seung-Ah Choi
+  - Kyu-Chang Wang
+  - Jung Woo Han
+  - Je-Gun Joung
+  - Hyun Seung Kang
+  - Jeong Eun Kim
+  - Ji Hoon Phi
+  - Woong-Yang Park
+  - Seung-Ki Kim
+  publisher: Arteriosclerosis, Thrombosis, and Vascular Biology
+  date: '2015-07-01'
+  link: https://doi.org/f7hkz2
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1158/1078-0432.CCR-14-1589
+  title: "Patient-Derived Xenografts from Non\u2013Small Cell Lung Cancer Brain Metastases\
+    \ Are Valuable Translational Platforms for the Development of Personalized Targeted\
+    \ Therapy"
+  authors:
+  - Hye Won Lee
+  - Jung-il Lee
+  - Se Jeong Lee
+  - Hyun Jung Cho
+  - Hye Jin Song
+  - Da Eun Jeong
+  - Yun Jee Seo
+  - Sang Shin
+  - Je-Gun Joung
+  - Yong-Jun Kwon
+  - Yoon-La Choi
+  - Woong-Yang Park
+  - Hyun Moo Lee
+  - Ho Jun Seol
+  - Young Mog Shim
+  - Kyeung Min Joo
+  - Do-Hyun Nam
+  publisher: Clinical Cancer Research
+  date: '2015-03-01'
+  link: https://doi.org/f67kxp
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/1471-2164-11-384
+  title: Transcriptome sequencing and comparative analysis of cucumber flowers with
+    different sex types
+  authors:
+  - Shaogui Guo
+  - Yi Zheng
+  - Je-Gun Joung
+  - Shiqiang Liu
+  - Zhonghua Zhang
+  - Oswald R Crasta
+  - Bruno W Sobral
+  - Yong Xu
+  - Sanwen Huang
+  - Zhangjun Fei
+  publisher: BMC Genomics
+  date: '2010-06-17'
+  link: https://doi.org/b2t3j5
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.4143/crt.2020.140
+  title: Genome-Wide Association Study for the Identification of Novel Genetic Variants
+    Associated with the Risk of Neuroblastoma in Korean Children
+  authors:
+  - Joon Seol Bae
+  - Ji Won Lee
+  - Jung Eun Yoo
+  - Je-Gun Joung
+  - Keon Hee Yoo
+  - Hong Hoe Koo
+  - Yun-Mi Song
+  - Ki Woong Sung
+  publisher: Cancer Research and Treatment
+  date: '2020-06-30'
+  link: https://doi.org/hcn8br
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.jmoldx.2017.06.001
+  title: A Method to Evaluate the Quality of Clinical Gene-Panel Sequencing Data for
+    Single-Nucleotide Variant Detection
+  authors:
+  - Chung Lee
+  - Joon S. Bae
+  - Gyu H. Ryu
+  - Nayoung K.D. Kim
+  - Donghyun Park
+  - Jongsuk Chung
+  - Sungkyu Kyung
+  - Je-Gun Joung
+  - Hyun-Tae Shin
+  - Seung-Ho Shin
+  - Younglan Kim
+  - Byung S. Kim
+  - Hojun Lee
+  - Kyoung-Mee Kim
+  - Jung-Sun Kim
+  - Woong-Yang Park
+  - Dae-Soon Son
+  publisher: The Journal of Molecular Diagnostics
+  date: '2017-09-01'
+  link: https://doi.org/gbw83g
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s12864-015-1723-x
+  title: The diagnostic application of targeted re-sequencing in Korean patients with
+    retinitis pigmentosa
+  authors:
+  - Chang-Ki Yoon
+  - Nayoung K. D. Kim
+  - Je-Gun Joung
+  - Joo Young Shin
+  - Jung Hyun Park
+  - Hye-Hyun Eum
+  - Hae-ock Lee
+  - Woong-Yang Park
+  - Hyeong Gon Yu
+  publisher: BMC Genomics
+  date: '2015-07-09'
+  link: https://doi.org/f7qjj5
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/cncy.21599
+  title: "The use of FNA samples for whole\u2010exome sequencing and detection of\
+    \ somatic mutations in breast cancer surgical specimens"
+  authors:
+  - "Han\u2010Byoel Lee"
+  - "Je\u2010Gun Joung"
+  - Jisun Kim
+  - "Kyung\u2010Min Lee"
+  - Han Suk Ryu
+  - "Hae\u2010Ock Lee"
+  - "Hyeong\u2010Gon Moon"
+  - "Woong\u2010Yang Park"
+  - "Dong\u2010Young Noh"
+  - Wonshik Han
+  publisher: Cancer Cytopathology
+  date: '2015-08-11'
+  link: https://doi.org/hcn8bs
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.compbiomed.2004.04.007
+  title: Protein sequence-based risk classification for human papillomaviruses
+  authors:
+  - Je-Gun Joung
+  - Sok June O
+  - Byoung-Tak Zhang
+  publisher: Computers in Biology and Medicine
+  date: '2006-06-01'
+  link: https://doi.org/fp6kt3
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.bbagrm.2007.09.003
+  title: Small RNAs in tomato fruit and leaf development
+  authors:
+  - A ITAYA
+  - R BUNDSCHUH
+  - A ARCHUAL
+  - J JOUNG
+  - Z FEI
+  - X DAI
+  - P ZHAO
+  - Y TANG
+  - R NELSON
+  - B DING
+  publisher: Biochimica et Biophysica Acta (BBA) - Gene Regulatory Mechanisms
+  date: '2008-02-01'
+  link: https://doi.org/c94r3m
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/srep37392
+  title: Vertical Magnetic Separation of Circulating Tumor Cells for Somatic Genomic-Alteration
+    Analysis in Lung Cancer Patients
+  authors:
+  - Chang Eun Yoo
+  - Jong-Myeon Park
+  - Hui-Sung Moon
+  - Je-Gun Joung
+  - Dae-Soon Son
+  - Hyo-Jeong Jeon
+  - Yeon Jeong Kim
+  - Kyung-Yeon Han
+  - Jong-Mu Sun
+  - Keunchil Park
+  - Donghyun Park
+  - Woong-Yang Park
+  publisher: Scientific Reports
+  date: '2016-11-28'
+  link: https://doi.org/f9c9xx
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.18632/oncotarget.7318
+  title: Integrated genomic approaches identify upregulation of <i>SCRN1</i> as a
+    novel mechanism associated with acquired resistance to erlotinib in PC9 cells
+    harboring oncogenic EGFR mutation
+  authors:
+  - Nayoung Kim
+  - Ahye Cho
+  - Hideo Watanabe
+  - Yoon-La Choi
+  - Meraj Aziz
+  - Michelle Kassner
+  - Je-Gun Joung
+  - Angela Kyung-Joo Park
+  - Joshua M. Francis
+  - Joon Seol Bae
+  - Soo-min Ahn
+  - Kyoung-Mee Kim
+  - Joon Oh Park
+  - Woong-Yang Park
+  - Myung-Ju Ahn
+  - Keunchil Park
+  - Jaehyung Koo
+  - Hongwei Holly Yin
+  - Jeonghee Cho
+  publisher: Oncotarget
+  date: '2016-02-11'
+  link: https://doi.org/hcn8bt
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.18632/oncotarget.26080
+  title: 'Correction: The mutational landscape of ocular marginal zone lymphoma identifies
+    frequent alterations in <i>TNFAIP3</i> followed by mutations in <i>TBL1XR1</i>
+    and <i>CREBBP</i>'
+  authors:
+  - Hyunchul Jung
+  - Hae Yong Yoo
+  - Seung Ho Lee
+  - Sohyun Shin
+  - Sang Cheol Kim
+  - Sejoon Lee
+  - Je-Gun Joung
+  - Jae-Yong Nam
+  - Daeun Ryu
+  - Jae Won Yun
+  - Jung Kyoon Choi
+  - Ambarnil Ghosh
+  - Kyeong Kyu Kim
+  - Seok Jin Kim
+  - Won Seog Kim
+  - Woong-Yang Park
+  - Young Hyeh Ko
+  publisher: Oncotarget
+  date: '2018-08-28'
+  link: https://doi.org/hcn8bv
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/1752-0509-7-S3-S8
+  title: 'Intra-relation reconstruction from inter-relation: miRNA to gene expression'
+  authors:
+  - Dokyoon Kim
+  - Hyunjung Shin
+  - Je-Gun Joung
+  - Su-Yeon Lee
+  - Ju Han Kim
+  publisher: BMC Systems Biology
+  date: '2013-01-01'
+  link: https://doi.org/gb3qqt
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/bioinformatics/btm045
+  title: "Discovery of microRNA\u2013mRNA modules via population-based probabilistic\
+    \ learning"
+  authors:
+  - Je-Gun Joung
+  - Kyu-Baek Hwang
+  - Jin-Wu Nam
+  - Soo-Jin Kim
+  - Byoung-Tak Zhang
+  publisher: Bioinformatics
+  date: '2007-03-09'
+  link: https://doi.org/ffdvfn
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1111/j.1365-313X.2011.04863.x
+  title: Combined transcriptome, genetic diversity and metabolite profiling in tomato
+    fruit reveals that the ethylene response factor <i>SlERF6</i> plays an important
+    role in ripening and carotenoid accumulation
+  authors:
+  - Je Min Lee
+  - "Je\u2010Gun Joung"
+  - Ryan McQuinn
+  - "Mi\u2010Young Chung"
+  - Zhangjun Fei
+  - Denise Tieman
+  - Harry Klee
+  - James Giovannoni
+  publisher: The Plant Journal
+  date: '2012-01-05'
+  link: https://doi.org/d5cw9z
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/1471-2105-10-S1-S34
+  title: Computational identification of condition-specific miRNA targets based on
+    gene expression profiles and sequence information
+  authors:
+  - Je-Gun Joung
+  - Zhangjun Fei
+  publisher: BMC Bioinformatics
+  date: '2009-01-01'
+  link: https://doi.org/dhkjpn
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.18632/oncotarget.9478
+  title: Comprehensive genomic profiling of IgM multiple myeloma identifies <i>IRF4</i>
+    as a prognostic marker
+  authors:
+  - Daeun Ryu
+  - Hee Jin Kim
+  - Je-Gun Joung
+  - Hae-Ock Lee
+  - Joon Seol Bae
+  - Seok Jin Kim
+  - Haesu Kim
+  - Woong-Yang Park
+  - Kihyun Kim
+  publisher: Oncotarget
+  date: '2016-05-19'
+  link: https://doi.org/f9mrsp
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1136/amiajnl-2013-002481
+  title: 'Knowledge boosting: a graph-based integration approach with multi-omics
+    data and genomic knowledge for cancer clinical outcome prediction'
+  authors:
+  - Dokyoon Kim
+  - Je-Gun Joung
+  - Kyung-Ah Sohn
+  - Hyunjung Shin
+  - Yu Rang Park
+  - Marylyn D Ritchie
+  - Ju Han Kim
+  publisher: Journal of the American Medical Informatics Association
+  date: '2014-07-07'
+  link: https://doi.org/ghff24
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1136/amiajnl-2012-001571
+  title: Extracting coordinated patterns of DNA methylation and gene expression in
+    ovarian cancer
+  authors:
+  - Je-Gun Joung
+  - Dokyoon Kim
+  - Kyung Hwa Kim
+  - Ju Han Kim
+  publisher: Journal of the American Medical Informatics Association
+  date: '2013-07-01'
+  link: https://doi.org/hcn8bw
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/nar/gkq991
+  title: 'Tomato Functional Genomics Database: a comprehensive resource and analysis
+    package for tomato functional genomics'
+  authors:
+  - Z. Fei
+  - J.-G. Joung
+  - X. Tang
+  - Y. Zheng
+  - M. Huang
+  - J. M. Lee
+  - R. McQuinn
+  - D. M. Tieman
+  - R. Alba
+  - H. J. Klee
+  - J. J. Giovannoni
+  publisher: Nucleic Acids Research
+  date: '2010-10-21'
+  link: https://doi.org/b6jqjh
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/cancers12040866
+  title: 'Integrative Radiogenomics Approach for Risk Assessment of Post-Operative
+    Metastasis in Pathological T1 Renal Cell Carcinoma: A Pilot Retrospective Cohort
+    Study'
+  authors:
+  - Hye Won Lee
+  - Hwan-ho Cho
+  - Je-Gun Joung
+  - Hwang Gyun Jeon
+  - Byong Chang Jeong
+  - Seong Soo Jeon
+  - Hyun Moo Lee
+  - Do-Hyun Nam
+  - Woong-Yang Park
+  - Chan Kyo Kim
+  - Seong Il Seo
+  - Hyunjin Park
+  publisher: Cancers
+  date: '2020-04-02'
+  link: https://doi.org/hcn8bx
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/1471-2105-7-284
+  title: Construction of phylogenetic trees by kernel-based comparative analysis of
+    metabolic networks
+  authors:
+  - S June Oh
+  - Je-Gun Joung
+  - Jeong-Ho Chang
+  - Byoung-Tak Zhang
+  publisher: BMC Bioinformatics
+  date: '2006-06-06'
+  link: https://doi.org/cvr8hb
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/1471-2105-12-S13-S8
+  title: Comprehensive evaluation of matrix factorization methods for the analysis
+    of DNA microarray gene expression data
+  authors:
+  - Mi Hyeon Kim
+  - Hwa Jeong Seo
+  - Je-Gun Joung
+  - Ju Han Kim
+  publisher: BMC Bioinformatics
+  date: '2011-11-30'
+  link: https://doi.org/b6r6vd
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.bbaexp.2007.09.002
+  title: 'WITHDRAWN: Small RNAs in tomato fruit and leaf development'
+  authors:
+  - Asuka Itaya
+  - Ralf Bundschuh
+  - Anthony J. Archual
+  - Je-Gun Joung
+  - Zhangjun Fei
+  - Xinbin Dai
+  - Patrick X. Zhao
+  - Yuhong Tang
+  - Richard S. Nelson
+  - Biao Ding
+  publisher: Biochimica et Biophysica Acta (BBA) - Gene Structure and Expression
+  date: '2007-10-01'
+  link: https://doi.org/cj65nv
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/1755-8794-7-S1-S10
+  title: Integrated analysis of microRNA-target interactions with clinical outcomes
+    for cancers
+  authors:
+  - Je-Gun Joung
+  - Dokyoon Kim
+  - Su Yeon Lee
+  - Hwa Jung Kang
+  - Ju Han Kim
+  publisher: BMC Medical Genomics
+  date: '2014-05-01'
+  link: https://doi.org/gb34rh
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/1471-2164-12-S3-S5
+  title: Extracting regulatory modules from gene expression data by sequential pattern
+    mining
+  authors:
+  - Mingoo Kim
+  - Hyunjung Shin
+  - Tae Su Chung
+  - Je-Gun Joung
+  - Ju Han Kim
+  publisher: BMC Genomics
+  date: '2011-01-01'
+  link: https://doi.org/bjzr6d
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/1471-2164-10-S3-S29
+  title: Identification of cell cycle-related regulatory motifs using a kernel canonical
+    correlation analysis
+  authors:
+  - Je-Keun Rhee
+  - Je-Gun Joung
+  - Jeong-Ho Chang
+  - Zhangjun Fei
+  - Byoung-Tak Zhang
+  publisher: BMC Genomics
+  date: '2009-12-01'
+  link: https://doi.org/c8zqzr
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/bioinformatics/btn626
+  title: Identification of microRNA regulatory modules in<i>Arabidopsis</i>via a probabilistic
+    graphical model
+  authors:
+  - Je-Gun Joung
+  - Zhangjun Fei
+  publisher: Bioinformatics
+  date: '2008-12-04'
+  link: https://doi.org/bsm5m7
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/bioinformatics/btl343
+  title: 'Identification of regulatory modules by co-clustering latent variable models:
+    stem cell differentiation'
+  authors:
+  - Je-Gun Joung
+  - Dongho Shin
+  - Rho Hyun Seong
+  - Byoung-Tak Zhang
+  publisher: Bioinformatics
+  date: '2006-08-15'
+  link: https://doi.org/c6ddhr
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/1471-2105-13-S17-S12
+  title: A probabilistic coevolutionary biclustering algorithm for discovering coherent
+    patterns in gene expression dataset
+  authors:
+  - Je-Gun Joung
+  - Soo-Jin Kim
+  - Soo-Yong Shin
+  - Byoung-Tak Zhang
+  publisher: BMC Bioinformatics
+  date: '2012-12-01'
+  link: https://doi.org/gb8t94
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.18632/oncotarget.14928
+  title: The mutational landscape of ocular marginal zone lymphoma identifies frequent
+    alterations in <i>TNFAIP3</i> followed by mutations in <i>TBL1XR1</i> and <i>CREBBP</i>
+  authors:
+  - Hyunchul Jung
+  - Hae Yong Yoo
+  - Seung Ho Lee
+  - Sohyun Shin
+  - Sang Cheol Kim
+  - Sejoon Lee
+  - Je-Gun Joung
+  - Jae-Yong Nam
+  - Daeun Ryu
+  - Jae Won Yun
+  - Jung Kyoon Choi
+  - Ambarnil Ghosh
+  - Kyeong Kyu Kim
+  - Seok Jin Kim
+  - Won Seog Kim
+  - Woong-Yang Park
+  - Young Hyeh Ko
+  publisher: Oncotarget
+  date: '2017-02-04'
+  link: https://doi.org/f9nszz
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s00259-018-4138-5
+  title: Correlations between metabolic texture features, genetic heterogeneity, and
+    mutation burden in patients with lung cancer
+  authors:
+  - Seung Hwan Moon
+  - Jinho Kim
+  - Je-Gun Joung
+  - Hongui Cha
+  - Woong-Yang Park
+  - Jin Seok Ahn
+  - Myung-Ju Ahn
+  - Keunchil Park
+  - Joon Young Choi
+  - Kyung-Han Lee
+  - Byung-Tae Kim
+  - Se-Hoon Lee
+  publisher: European Journal of Nuclear Medicine and Molecular Imaging
+  date: '2018-08-25'
+  link: https://doi.org/g9s2d2
   plugin: sources.py
   file: sources.yaml
