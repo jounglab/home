@@ -5,6 +5,6 @@
 
   # jounglab's Website
 
-  Visit **[jounglab.github.io/home](https://jounglab.github.io/home)** 🚀
+  Visit **[jounglab.github.io](https://jounglab.github.io)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
