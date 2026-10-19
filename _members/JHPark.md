@@ -1,7 +1,7 @@
 ---
 name: Jong-Heon Park
 image: images/photo.jpg
-role: PhD Student
+role: phd
 affiliation: CHA University
 aliases:
   - JH. Park
