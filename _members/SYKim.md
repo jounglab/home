@@ -6,6 +6,5 @@ affiliation: CHA University
 aliases:
   - SY Kim
 links:
-  email: [duchi73]@gmail.com
   orcid: 0009-0007-9727-8197
 ---
