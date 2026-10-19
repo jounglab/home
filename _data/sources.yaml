@@ -2,7 +2,6 @@
   image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caa7/7210975/38a22559c1a8/41467_2020_16164_Fig1_HTML.jpg
  
 - id: doi:10.1038/s41588-020-0636-z
-  image: https://www.nature.com/articles/s41588-020-0636-z/figures/1
 
 - id: doi:10.3390/cells14221835
   image: https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12651854_cells-14-01835-g001.jpg
@@ -10,11 +9,10 @@
 - id: doi:10.3390/cancers17213565
   image: https://www.mdpi.com/cancers/cancers-17-03565/article_deploy/html/images/cancers-17-03565-g001-550.jpg
 
-- id:  doi:10.3390/cells14100681
+- id: doi:10.3390/cells14100681
   image: https://www.mdpi.com/cells/cells-14-00681/article_deploy/html/images/cells-14-00681-g001-550.jpg
 
 - id: doi:10.1159/000549565
-  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6544/13614789/9e5a67453e3a/lic-2026-0015-0004-549565_F03.webp
 
 - id: doi:10.1007/s00439-016-1670-x
 
@@ -24,9 +22,9 @@
 
 - id: doi:10.1038/s41551-022-00980-5
 
-- id:  doi:10.1016/j.jcmgh.2021.10.010
+- id: doi:10.1016/j.jcmgh.2021.10.010
 
-- id:  doi:10.3389/fcimb.2022.932373
+- id: doi:10.3389/fcimb.2022.932373
 
 - id: doi:10.1038/s41598-018-25800-2
 
@@ -34,7 +32,7 @@
 
 - id: doi:10.3390/cancers12082207
 
-- id:  doi:10.1016/j.tranon.2018.09.003
+- id: doi:10.1016/j.tranon.2018.09.003
 
 - id: doi:10.1186/s13578-023-00961-4
 
@@ -158,9 +156,9 @@
 
 - id: doi:10.18632/oncotarget.9478
 
-- id: doi: 10.1136/amiajnl-2013-002481
+- id: doi:10.1136/amiajnl-2013-002481
 
-- id: doi: 10.1136/amiajnl-2012-001571
+- id: doi:10.1136/amiajnl-2012-001571
 
 - id: doi:10.1093/nar/gkq991
 
