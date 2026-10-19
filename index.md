@@ -26,7 +26,7 @@ We study how genomic and cellular heterogeneity drives tumor evolution, immune m
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/research.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -49,7 +49,7 @@ We build analysis pipelines and AI/ML models for biomarker discovery, from large
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/projects.jpg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -74,7 +74,7 @@ Our team brings together researchers and students from bioinformatics, biology, 
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team.jpg"
   link="team"
   title="Our Team"
   text=text
