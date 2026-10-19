@@ -1,9 +1,9 @@
 ---
 ---
 
-# jounglab's Website
+# Joung Lab
 
-An engaging 1-3 sentence description of your lab.
+We are a biomedical informatics lab at CHA University, integrating multi-omics data and machine learning to decode molecular heterogeneity in cancer and stem cells, and translating these insights into biomarkers for precision medicine and cell therapy.
 
 {% include section.html %}
 
@@ -11,7 +11,7 @@ An engaging 1-3 sentence description of your lab.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We study how genomic and cellular heterogeneity drives tumor evolution, immune microenvironment, and treatment response, using bulk, single-cell, and spatial multi-omics. Our work spans colorectal, lung, liver, and gynecologic cancers in close collaboration with clinicians.
 
 {%
   include button.html
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We build analysis pipelines and AI/ML models for biomarker discovery, from large-scale multi-omics profiling of stem cells for cell therapy to genomic scoring approaches that support donor selection and patient stratification.
 
 {%
   include button.html
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our team brings together researchers and students from bioinformatics, biology, and data science. We welcome motivated students and postdocs interested in computational biology and genomic medicine.
 
 {%
   include button.html
