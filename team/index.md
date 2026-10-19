@@ -20,8 +20,6 @@ We work closely with clinicians and experimental biologists to turn large-scale 
 ## Join Us
 
 We are always looking for motivated graduate students, postdoctoral researchers, and undergraduate interns interested in computational genomics, multi-omics integration, and AI-driven biomedical research.
-Prior programming experience (Python or R) is helpful, but curiosity and commitment matter most.
-If you are interested, please send your CV and a brief statement of research interests.
 
 {% include button.html link="contact" text="Contact us" icon="fa-solid fa-arrow-right" flip=true %}
 
