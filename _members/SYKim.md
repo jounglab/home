@@ -1,7 +1,7 @@
 ---
 name: Sook-Young Kim
 image: images/photo.jpg
-role: PhD Student
+role: phd
 affiliation: CHA University
 aliases:
   - SY Kim
