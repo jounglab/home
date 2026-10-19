@@ -7,9 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our team brings together researchers with backgrounds in bioinformatics, molecular biology, and data science.
+We work closely with clinicians and experimental biologists to turn large-scale genomic data into biological insight and clinically useful biomarkers.
 
 {% include section.html %}
 
@@ -18,11 +17,17 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Join Us
+
+We are always looking for motivated graduate students, postdoctoral researchers, and undergraduate interns interested in computational genomics, multi-omics integration, and AI-driven biomedical research.
+Prior programming experience (Python or R) is helpful, but curiosity and commitment matter most.
+If you are interested, please send your CV and a brief statement of research interests.
+
+{% include button.html link="contact" text="Contact us" icon="fa-solid fa-arrow-right" flip=true %}
 
 {% include section.html %}
+
+## Lab Life
 
 {% capture content %}
 
