@@ -6,5 +6,5 @@ affiliation: Bundang CHA Hospital
 aliases:
   - W Sung
 links:
-  email: [wnswj241]@gmail.com
+  email: wnswj241@gmail.com
 ---
