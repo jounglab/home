@@ -1,1 +1,1 @@
-Sitemap: https://jounglab.github.io/home/sitemap.xml
+Sitemap: https://jounglab.github.io/sitemap.xml
