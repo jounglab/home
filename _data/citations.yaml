@@ -626,7 +626,7 @@
   orcid: 0000-0003-2859-1036
   plugin: sources.py
   file: sources.yaml
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41588-020-0636-z/MediaObjects/41588_2020_636_Fig1_HTML.png
+  image: https://jounglab.github.io/images/PMID32451460.jpg
 - id: doi:10.1038/s41467-020-16164-1
   title: Single-cell RNA sequencing demonstrates the molecular and cellular reprogramming
     of metastatic lung adenocarcinoma
@@ -987,8 +987,9 @@
   date: '2017-11-30'
   link: https://doi.org/gdvthb
   orcid: 0000-0003-2859-1036
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://aacrjournals.org/view-large/figure/9726749/7209fig2.jpeg
 - id: doi:10.1038/s41467-017-01470-y
   title: Prevalence and detection of low-allele-fraction variants in clinical cancer
     samples
