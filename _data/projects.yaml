@@ -3,7 +3,6 @@
   group: featured
   image: images/photo_poject1.jpg
   description: Developing a non-invasive, ctDNA-based NGS panel to detect HRD in ovarian cancer and validating its concordance with tissue HRD scores.
-  repo: greenelab/lab-website-template
   tags:
     - resource
 
@@ -12,7 +11,6 @@
   group: featured
   image: images/photo_poject2.jpg
   description: Integrating large-scale multi-omics profiles of stem cells to identify quality and potency markers that support the development of safe and effective stem cell therapeutics.
-  repo: greenelab/lab-website-template
   tags:
     - resource
     - software
@@ -21,7 +19,6 @@
   subtitle: MSC Exosomics
   image: images/photo_poject3.jpg
   description: Profiling mesenchymal stem cells and their exosomes with bulk and single-cell RNA-seq to discover molecular markers associated with exosome production and therapeutic potency.
-  repo: greenelab/lab-website-template
   tags:
     - resource
     - publication
