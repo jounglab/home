@@ -34,7 +34,7 @@ Contact information!
 
 {%
   include figure.html
-  image="images/MedicalCenter.jpg"
+  image="images/MedicalCenter_map.jpg"
   caption="Bundang Cha Medical Center"
 %}
 
@@ -44,7 +44,7 @@ Contact information!
 
 {%
   include figure.html
-  image="images/CBC.jpg"
+  image="images/CBC_map.jpg"
   caption="Cha Bio Complex"
 %}
 
