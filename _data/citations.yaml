@@ -989,7 +989,7 @@
   orcid: 0000-0003-2859-1036
   plugin: sources.py
   file: sources.yaml
-  image: https://aacrjournals.org/view-large/figure/9726749/7209fig2.jpeg
+  image: https://jounglab.github.io/images/PMID28939741.jpg
 - id: doi:10.1038/s41467-017-01470-y
   title: Prevalence and detection of low-allele-fraction variants in clinical cancer
     samples
