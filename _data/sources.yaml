@@ -1,8 +1,11 @@
 - id: doi:10.1038/s41467-020-16164-1
   image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caa7/7210975/38a22559c1a8/41467_2020_16164_Fig1_HTML.jpg
- 
+
+- id: doi:10.1158/1078-0432.ccr-17-0306
+  image: https://aacrjournals.org/view-large/figure/9726749/7209fig2.jpeg
+
 - id: doi:10.1038/s41588-020-0636-z
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41588-020-0636-z/MediaObjects/41588_2020_636_Fig1_HTML.png
+  image: https://jounglab.github.io/images/PMID32451460.jpg
   
 - id: doi:10.3390/cells14221835
   image: https://www.mdpi.com/cells/cells-14-01835/article_deploy/html/images/cells-14-01835-g005-550.jpg
