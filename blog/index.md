@@ -5,7 +5,7 @@ nav:
   tooltip: Musings and miscellany
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
+# {% include icon.html icon="fa-solid fa-feather-pointed" %}News
 
 News and updates, including new publications, conference presentations, awards, and lab events..
 
