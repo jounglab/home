@@ -20,7 +20,7 @@ We work closely with clinicians and experimental biologists to turn large-scale 
 {% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
 
 ## Alumni
-{% include list.html data="members" component="portrait" filter="alumni" %}
+{% include list.html data="members" component="portrait" filter="role == 'alumni'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
