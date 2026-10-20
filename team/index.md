@@ -36,9 +36,10 @@ We are always looking for motivated graduate students, postdoctoral researchers,
 
 {% capture content %}
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/photo_lab001.jpg" %}
+{% include figure.html image="images/photo_lab002.jpg" %}
+{% include figure.html image="images/photo_lab003.jpg" %}
+{% include figure.html image="images/photo_lab004.jpg" %}
 
 {% endcapture %}
 
