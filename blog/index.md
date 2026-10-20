@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}News
 
-News and updates, including new publications, conference presentations, awards, and lab events..
+News and updates, including new publications, conference presentations, awards, and lab events.
 
 {% include section.html %}
 
