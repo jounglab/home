@@ -2,10 +2,11 @@
   image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caa7/7210975/38a22559c1a8/41467_2020_16164_Fig1_HTML.jpg
  
 - id: doi:10.1038/s41588-020-0636-z
-
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41588-020-0636-z/MediaObjects/41588_2020_636_Fig1_HTML.png
+  
 - id: doi:10.3390/cells14221835
-  image: https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12651854_cells-14-01835-g001.jpg
-
+  image: https://www.mdpi.com/cells/cells-14-01835/article_deploy/html/images/cells-14-01835-g005-550.jpg
+  
 - id: doi:10.3390/cancers17213565
   image: https://www.mdpi.com/cancers/cancers-17-03565/article_deploy/html/images/cancers-17-03565-g001-550.jpg
 
