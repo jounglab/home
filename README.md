@@ -3,7 +3,7 @@
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-  # jounglab's Website  
+  # jounglab's Website 
 
   Visit **[jounglab.github.io](https://jounglab.github.io)** 🚀
 
