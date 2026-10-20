@@ -1,7 +1,7 @@
 ---
 ---
 
-# Joung Lab
+# BIOMEDICAL INFORMATICS
 
 We are a biomedical informatics lab at CHA University, integrating multi-omics data and machine learning to decode molecular heterogeneity in cancer and stem cells, and translating these insights into biomarkers for precision medicine and cell therapy.
 
