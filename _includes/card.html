@@ -16,20 +16,22 @@
   </a>
 
   <div class="card-text">
-    {% if include.title %}
-      <a
-        {% if include.link %}
+     {% if include.title %}
+      {% if include.link %}
+        <a
           href="{{ include.link | relative_url | uri_escape }}"
-        {% endif %}
-        {% if include.tooltip %}
-          data-tooltip="{{ include.tooltip | xml_escape }}"
-        {% endif %}
-        class="card-title"
-      >
-        {{ include.title }}
-    </a>
+          {% if include.tooltip %}
+            data-tooltip="{{ include.tooltip | xml_escape }}"
+          {% endif %}
+          class="card-title"
+        >
+          {{ include.title }}
+        </a>
+      {% else %}
+        <span class="card-title">{{ include.title }}</span>
+      {% endif %}
     {% endif %}
-
+    
     {% if include.subtitle %}
       <span class="card-subtitle">{{ include.subtitle }}</span>
     {% endif %}
