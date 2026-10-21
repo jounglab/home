@@ -41,6 +41,14 @@ Young-Yoon Kim (Freshman), Soel Jeong (Senior), Jong-Heon Park (Senior), Jeong-E
 2021
 Hye-Bin Ahn (Sophomore), Hyo-Eun Lee (Sophomore)
 
+{% include section.html background="images/background.jpg" dark=true %}
+
+## Join Us
+
+We are always looking for motivated graduate students, postdoctoral researchers, and undergraduate interns interested in computational genomics, multi-omics integration, and AI-driven biomedical research.
+
+{% include button.html link="contact" text="Contact us" icon="fa-solid fa-arrow-right" flip=true %}
+
 {% include section.html %}
 
 ## Lab Life
@@ -53,13 +61,5 @@ Hye-Bin Ahn (Sophomore), Hyo-Eun Lee (Sophomore)
 {% include figure.html image="images/photo_lab004.jpg" %}
 
 {% endcapture %}
-
-{% include section.html %}
-
-## Join Us
-
-We are always looking for motivated graduate students, postdoctoral researchers, and undergraduate interns interested in computational genomics, multi-omics integration, and AI-driven biomedical research.
-
-{% include button.html link="contact" text="Contact us" icon="fa-solid fa-arrow-right" flip=true %}
 
 {% include grid.html style="square" content=content %}
