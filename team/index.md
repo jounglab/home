@@ -22,8 +22,6 @@ We work closely with clinicians and experimental biologists to turn large-scale 
 ## Alumni
 {% include list.html data="members" component="portrait" filter="role == 'alumni'" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
-
 ### Undergraduate Intern
 2026 
 Jihu Jung (Senior), Yubin Soung (Senior), Doo-Hyun Eom (Junior), Eun-Bin Jung (Sophomore)
@@ -43,14 +41,6 @@ Young-Yoon Kim (Freshman), Soel Jeong (Senior), Jong-Heon Park (Senior), Jeong-E
 2021
 Hye-Bin Ahn (Sophomore), Hyo-Eun Lee (Sophomore)
 
-## Join Us
-
-We are always looking for motivated graduate students, postdoctoral researchers, and undergraduate interns interested in computational genomics, multi-omics integration, and AI-driven biomedical research.
-
-{% include button.html link="contact" text="Contact us" icon="fa-solid fa-arrow-right" flip=true %}
-
-{% include section.html %}
-
 ## Lab Life
 
 {% capture content %}
@@ -61,5 +51,13 @@ We are always looking for motivated graduate students, postdoctoral researchers,
 {% include figure.html image="images/photo_lab004.jpg" %}
 
 {% endcapture %}
+
+## Join Us
+
+We are always looking for motivated graduate students, postdoctoral researchers, and undergraduate interns interested in computational genomics, multi-omics integration, and AI-driven biomedical research.
+
+{% include button.html link="contact" text="Contact us" icon="fa-solid fa-arrow-right" flip=true %}
+
+{% include section.html %}
 
 {% include grid.html style="square" content=content %}
