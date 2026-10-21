@@ -24,6 +24,25 @@ We work closely with clinicians and experimental biologists to turn large-scale 
 
 {% include section.html background="images/background.jpg" dark=true %}
 
+### Undergraduate Intern
+2026 
+Jihu Jung (Senior), Yubin Soung (Senior), Doo-Hyun Eom (Junior), Eun-Bin Jung (Sophomore)
+
+2025 
+Ji-Young Lee (Junior), Suho Kim (Senior), Chae-Hyun Kim (Senior), Yudam Shin (Senior)
+
+2024 
+Ji-Yeon Hong (Senior), Sun-Young Oh (Senior), Yeon-Woo Lee (Senior) 
+
+2023 
+Hee-Seung Ban (Senior), Daewon Shim (Senior), Do-Kyung Yoon (Senior), Ho-Jun Sung (Senior)
+
+2022
+Young-Yoon Kim (Freshman), Soel Jeong (Senior), Jong-Heon Park (Senior), Jeong-Eon Park (Senior)
+
+2021
+Hye-Bin Ahn (Sophomore), Hyo-Eun Lee (Sophomore)
+
 ## Join Us
 
 We are always looking for motivated graduate students, postdoctoral researchers, and undergraduate interns interested in computational genomics, multi-omics integration, and AI-driven biomedical research.
